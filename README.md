@@ -12,3 +12,6 @@ Data_check - python script for checking data and scale
 
 anomaly_detector - python script for finding anomalies in data and turning thm into JSON files
 
+JSON_reference - JSON files that show how data that we are interested in will look after processing
+
+test_pipeline - models and checks everything that happened in notebook, just in one file

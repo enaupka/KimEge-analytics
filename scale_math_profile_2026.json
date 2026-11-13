@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "subject": "math",
+  "level": "profile",
+  "year": 2026,
+  "maxPrimary": 12,
+  "minThresholdPrimary": 5,
+  "entries": [
+    {
+      "primary": 0,
+      "test": 0
+    },
+    {
+      "primary": 1,
+      "test": 6
+    },
+    {
+      "primary": 2,
+      "test": 11
+    },
+    {
+      "primary": 3,
+      "test": 16
+    },
+    {
+      "primary": 4,
+      "test": 21
+    },
+    {
+      "primary": 5,
+      "test": 26
+    },
+    {
+      "primary": 6,
+      "test": 31
+    },
+    {
+      "primary": 7,
+      "test": 37
+    },
+    {
+      "primary": 8,
+      "test": 42
+    },
+    {
+      "primary": 9,
+      "test": 48
+    },
+    {
+      "primary": 10,
+      "test": 55
+    },
+    {
+      "primary": 11,
+      "test": 62
+    },
+    {
+      "primary": 12,
+      "test": 70
+    }
+  ],
+  "note": "Метод: модифицированная модель Раша (1PL IRT с верхней асимптотой s=0.99, k=1.235) + EAP (методика v1.0)"
+}

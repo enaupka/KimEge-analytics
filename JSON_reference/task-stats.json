@@ -1,0 +1,142 @@
+{
+  "sessionId": "2026-06-08-math-prof-01",
+  "subject": "math",
+  "level": "profile",
+  "year": 2026,
+  "cronbachAlpha": 0.5978,
+  "tasks": [
+    {
+      "taskId": "task-1",
+      "codeficator": "5.1.1",
+      "answered": 500000,
+      "correct": 429255,
+      "pValue": 0.859,
+      "avgScore": 0.859,
+      "skipRate": 0.0,
+      "discrimination": 0.313,
+      "flag": null
+    },
+    {
+      "taskId": "task-2",
+      "codeficator": "7.1.1",
+      "answered": 500000,
+      "correct": 453964,
+      "pValue": 0.908,
+      "avgScore": 0.908,
+      "skipRate": 0.0,
+      "discrimination": 0.208,
+      "flag": null
+    },
+    {
+      "taskId": "task-3",
+      "codeficator": "8.1.1",
+      "answered": 500000,
+      "correct": 350452,
+      "pValue": 0.701,
+      "avgScore": 0.701,
+      "skipRate": 0.0,
+      "discrimination": 0.555,
+      "flag": null
+    },
+    {
+      "taskId": "task-4",
+      "codeficator": "8.2.1",
+      "answered": 500000,
+      "correct": 471036,
+      "pValue": 0.942,
+      "avgScore": 0.942,
+      "skipRate": 0.0,
+      "discrimination": 0.132,
+      "flag": "LOW_DISCRIMINATION"
+    },
+    {
+      "taskId": "task-5",
+      "codeficator": "2.1.1",
+      "answered": 500000,
+      "correct": 358101,
+      "pValue": 0.716,
+      "avgScore": 0.716,
+      "skipRate": 0.0,
+      "discrimination": 0.537,
+      "flag": null
+    },
+    {
+      "taskId": "task-6",
+      "codeficator": "1.1.1",
+      "answered": 500000,
+      "correct": 478416,
+      "pValue": 0.957,
+      "avgScore": 0.957,
+      "skipRate": 0.0,
+      "discrimination": 0.096,
+      "flag": "LOW_DISCRIMINATION"
+    },
+    {
+      "taskId": "task-7",
+      "codeficator": "4.1.1",
+      "answered": 500000,
+      "correct": 376191,
+      "pValue": 0.752,
+      "avgScore": 0.752,
+      "skipRate": 0.0,
+      "discrimination": 0.488,
+      "flag": "DEVIATION_FROM_2025"
+    },
+    {
+      "taskId": "task-8",
+      "codeficator": "7.2.1",
+      "answered": 500000,
+      "correct": 355942,
+      "pValue": 0.712,
+      "avgScore": 0.712,
+      "skipRate": 0.0,
+      "discrimination": 0.542,
+      "flag": null
+    },
+    {
+      "taskId": "task-9",
+      "codeficator": "3.1.1",
+      "answered": 500000,
+      "correct": 387402,
+      "pValue": 0.775,
+      "avgScore": 0.775,
+      "skipRate": 0.0,
+      "discrimination": 0.456,
+      "flag": null
+    },
+    {
+      "taskId": "task-10",
+      "codeficator": "3.2.1",
+      "answered": 500000,
+      "correct": 379254,
+      "pValue": 0.759,
+      "avgScore": 0.759,
+      "skipRate": 0.0,
+      "discrimination": 0.479,
+      "flag": null
+    },
+    {
+      "taskId": "task-11",
+      "codeficator": "4.2.1",
+      "answered": 500000,
+      "correct": 409175,
+      "pValue": 0.818,
+      "avgScore": 0.818,
+      "skipRate": 0.0,
+      "discrimination": 0.385,
+      "flag": null
+    },
+    {
+      "taskId": "task-12",
+      "codeficator": "4.3.1",
+      "answered": 500000,
+      "correct": 375505,
+      "pValue": 0.751,
+      "avgScore": 0.751,
+      "skipRate": 0.0,
+      "discrimination": 0.489,
+      "flag": null
+    }
+  ],
+  "distractors": []
+}

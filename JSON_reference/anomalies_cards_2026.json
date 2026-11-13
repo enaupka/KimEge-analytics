@@ -1,0 +1,787 @@
+{
+  "schemaVersion": "1.0",
+  "method": "Tukey IQR (Q1 - 1.5*IQR on Log-Likelihood & Q3 + 1.5*IQR on PPE avg)",
+  "totalWorksChecked": 10000,
+  "tukeyLowerFenceLL": -11.8224,
+  "anomaliesDetectedTotal": 28,
+  "cardsExported": 29,
+  "cards": [
+    {
+      "anomalyId": "220f20e3-f861-50b9-a343-558cfc41511c",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "DISTRICT_OUTLIER",
+      "objectKind": "ppe",
+      "objectId": "ppe-1053",
+      "metrics": [
+        {
+          "name": "avg_test_score",
+          "value": 57.87,
+          "threshold": 56.87,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Передать в Ситуационный центр для проверки",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "579520ef-b4d4-52f9-a587-e2264667c29b",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-0bc2e29008871f16",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.2365,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "55d80638-8a5c-5d48-ab1d-8293b1361808",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-dba62b6baa512dae",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -11.8628,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "59640034-c08f-597f-b66c-cd91ae355242",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-6ac0b693fd780844",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.6856,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 7,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "d7b11cfb-d21f-5241-a238-b4c5e525053e",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-27506d2d9e8208be",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -13.0762,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "962a6990-d629-5306-8ea6-1f799768f072",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-a99cf638374e8b35",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -11.9041,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "fb7f46a8-3c2b-5516-bff9-66ce5f1ca644",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-08f3fd89e8e0744d",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.0401,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "b2d59781-5d17-51bd-a2df-b39cdc40ef37",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-0905fdf53c4af82a",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -11.8824,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 4,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "1ccd1ef4-ee48-5c9d-b743-2e38146d3fef",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-7b04f8e1c2d699a8",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -13.4937,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 7,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "aa053edc-c212-5c9f-93b9-f0c48d54640f",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-96ccec8eb6064128",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -13.821,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 8,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "24512851-3f91-526e-bbf8-9c06a7733d7d",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-5b89b70b7e235d60",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.4369,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "92b123af-5666-511c-ab63-852412dd2054",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-6797a14df2fffe04",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.0975,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 8,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "2ee0548e-ca4c-570a-84ab-a0baa6a19ee5",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-908a15760149dce2",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -11.8365,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "dd6b101d-1f24-5e5e-ae3d-672a6c496907",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-0f86b518c2b9ed31",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -14.0654,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "145dc088-6c8a-51f4-8821-96b64107ae39",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-20cd6b29a1877005",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.4402,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "5ff0e85b-05fc-5201-a05d-9159c3181ddf",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-31269e1a6b63f4a9",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -15.3309,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 7,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "6e53f240-f06d-5960-8354-c9fb9da2386f",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-158b256de637592d",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.3427,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "99a6a451-7e42-5a24-bb7b-20e65d4c7510",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-380f5b38d53c8e1f",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.218,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "05d8bf45-69c2-5d1c-9058-c4b38941191e",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-0d51fcfb54cc263c",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -14.1016,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 7,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "449c2879-9b06-5585-b346-8675118d3277",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-a1a6205cad8ebacf",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.5678,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "4309e9dc-a012-59ed-92b4-c29138dae461",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-35359f4c6c468871",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -13.0268,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "0c86ece8-c734-5523-b793-f6af62960a6b",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-9397abcd1933ee75",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -11.8509,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "03c82cbf-cfdb-50f4-b3a1-de0cbb6a9419",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-6f50b2597ff63204",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -14.3738,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 7,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "668f2305-c451-524c-976e-8928cb68c2fc",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-114a9ed3700d868b",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.276,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 8,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "7c8b9b6e-ec19-580f-a0d2-5daa5ac4f2c6",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-4d5e92992a8a9a66",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -11.8701,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 8,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "815538a5-2fe6-50d6-95df-7e76f6806a50",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-b312debeda609988",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.1738,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 6,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "5e71258d-2269-55d3-a4ae-b3e2c9091571",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-e44786440baed5ab",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -13.3048,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 7,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "bea40042-2f57-5644-a955-1fee86dda63f",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-299681174c76458f",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -12.4618,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    },
+    {
+      "anomalyId": "961c5e89-5e42-5497-a9ff-771473b50033",
+      "createdAt": "2026-11-14T09:00:00.000Z",
+      "type": "INVERTED_PROFILE",
+      "objectKind": "room",
+      "objectId": "participant-6f82046c87e0cce1",
+      "metrics": [
+        {
+          "name": "log_likelihood",
+          "value": -13.1673,
+          "threshold": -11.8224,
+          "unit": "logit"
+        },
+        {
+          "name": "primary_score",
+          "value": 5,
+          "threshold": 5,
+          "unit": "балл"
+        }
+      ],
+      "severity": "medium",
+      "recommendation": "Сигнал для проверки (ДП-05): аномальный профиль ответов по критерию Тьюки, автоматическое изменение баллов не производится",
+      "dataWindow": {
+        "from": "2026-06-08T07:00:00.000Z",
+        "to": "2026-06-08T11:00:00.000Z"
+      }
+    }
+  ]
+}
